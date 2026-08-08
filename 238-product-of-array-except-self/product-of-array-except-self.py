@@ -4,7 +4,7 @@ class Solution:
 
         prefix = 1
         for i in range(len(nums)):
-            answer[i] *= prefix
+            answer[i] = prefix
             prefix *= nums[i]
 
         suffix = 1
